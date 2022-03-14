@@ -1,0 +1,212 @@
+/* Universal Styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  background-color: #fafafa;
+}
+
+/* Header Styles */
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  text-align: center;
+}
+
+header h1#logo {
+  font-family: "Syne Mono", Roboto, sans-serif;
+  font-size: 3rem;
+  color: white;
+  margin: 10px auto;
+}
+
+header nav {
+  margin: 0;
+  padding: 0;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 10px 0;
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover {
+  color: red;
+}
+
+header a:active {
+  color: white;
+}
+
+/* Main Styles */
+
+main {
+  position: relative;
+  top: 122.40px;
+}
+
+/* About Section Styles */
+
+.background-container {
+  width: 100%;
+  height: 600px;
+  background-image: url("./images/main_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-container .text-container {
+  font-family: "Syne Mono", serif;
+  font-size: 1.8rem;
+  background-color: rgba(74, 74, 74, 0.8);
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+.description-about {
+  margin: 80px auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.description-about p {
+  text-align: justify;
+  line-height: 1.7rem;
+  max-width: 35%;
+  min-width: 300px;
+  margin: 15px;
+}
+
+.description-about img {
+  max-width: 300px;
+  height: auto;
+}
+
+/* Reviews Section Styles */
+
+.content-reviews {
+  margin: 20px auto;
+}
+
+.content-reviews h2 {
+text-align: center;
+font-size: 2rem;
+}
+
+.review-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.review {
+  margin: 10px;
+  max-width: 450px;
+}
+
+.review p {
+  line-height: 1.5rem;
+}
+
+.review p.review-signature {
+  font-style: italic;
+}
+
+/* Featured Section Styles */
+
+.content-featured {
+  margin: 50px auto;
+}
+
+.content-featured > h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.featured-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+
+
+}
+
+.featured {
+  min-width: 300px;
+  max-width: 30%;
+  text-align: center;
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+.featured img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Staff Section Styles */
+
+.content-staff {
+  margin: 20px auto;
+}
+
+.content-staff > h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.staff-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.staff-member {
+  max-width: 30%;
+  min-width: 300px;
+  text-align: center;
+  margin: 10px;
+}
+
+.staff-member img {
+  max-width: 50%;
+  height: auto;
+}
+
+.staff-member p.job-title {
+  font-style: italic;
+}
+
+/* Contact Section Styles */
+
+/* Footer Styles */
