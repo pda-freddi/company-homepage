@@ -1,7 +1,11 @@
 /* Universal Styles */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-  min-width: 320px;
+  min-width: 300px;
   margin: 0;
   padding: 0;
   font-family: Roboto, sans-serif;
@@ -23,9 +27,9 @@ header {
 
 header h1#logo {
   font-family: "Syne Mono", Roboto, sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: white;
-  margin: 10px auto;
+  margin: 10px 0 0 0;
 }
 
 header nav {
@@ -63,13 +67,14 @@ header a:active {
 
 main {
   position: relative;
-  top: 122.40px;
+  top: 102px;
 }
 
 /* About Section Styles */
 
 .background-container {
   width: 100%;
+  min-width: 300px;
   height: 600px;
   background-image: url("./images/main_background.jpg");
   background-size: cover;
@@ -90,25 +95,26 @@ main {
 }
 
 .description-about {
-  margin: 80px auto;
+  margin: 50px auto;
   width: 90%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .description-about p {
   text-align: justify;
   line-height: 1.7rem;
   max-width: 35%;
-  min-width: 300px;
+  min-width: 280px;
   margin: 15px;
 }
 
 .description-about img {
   max-width: 300px;
   height: auto;
+  margin-top: 15px;
 }
 
 /* Reviews Section Styles */
@@ -120,6 +126,7 @@ main {
 .content-reviews h2 {
 text-align: center;
 font-size: 2rem;
+margin: 10px 0;
 }
 
 .review-container {
@@ -151,6 +158,7 @@ font-size: 2rem;
 .content-featured > h2 {
   text-align: center;
   font-size: 2rem;
+  margin: 10px 0;
 }
 
 .featured-container {
@@ -163,7 +171,7 @@ font-size: 2rem;
 }
 
 .featured {
-  min-width: 300px;
+  min-width: 280px;
   max-width: 30%;
   text-align: center;
   margin: 10px;
@@ -184,6 +192,7 @@ font-size: 2rem;
 .content-staff > h2 {
   text-align: center;
   font-size: 2rem;
+  margin: 20px 0;
 }
 
 .staff-container {
@@ -195,7 +204,7 @@ font-size: 2rem;
 
 .staff-member {
   max-width: 30%;
-  min-width: 300px;
+  min-width: 280px;
   text-align: center;
   margin: 10px;
   border: 1px solid black;
@@ -247,7 +256,7 @@ font-size: 2rem;
 
 footer {
   position: relative;
-  top: 122.4px;
+  top: 102px;
   background-color: black;
   padding: 5px;
   text-align: left;
@@ -263,7 +272,7 @@ footer p {
 @media only screen and (max-width: 585px) {
   main {
     position: relative;
-    top: 97.6px;
+    top: 87.6px;
   }
 
   header h1#logo {
@@ -284,14 +293,14 @@ footer p {
 
   footer {
     position: relative;
-    top: 97.6px;
+    top: 87.6px;
   }
 }
 
 @media only screen and (max-width: 390px) {
   main {
     position: relative;
-    top: 84px;
+    top: 74.8px;
   }
 
   header h1#logo {
@@ -312,6 +321,29 @@ footer p {
 
   footer {
     position: relative;
-    top: 84px;
+    top: 74.8px;
   }
+}
+
+@media only screen and (max-height: 700px) {
+  header h1#logo {
+    font-size: 1.5rem;
+    margin: 5px 0;
+  }
+
+  header ul {
+    font-size: 0.750rem;
+    padding: 5px 0;
+  }
+
+  main {
+    position: relative;
+    top: 63.2px;
+  }
+
+  footer {
+    position: relative;
+    top: 63.2px;
+  }
+
 }
