@@ -213,9 +213,9 @@ margin: 10px 0;
 }
 
 .staff-member img {
-  max-width: 50%;
-  height: auto;
-  border-radius: 15px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 .staff-member p.job-title {
