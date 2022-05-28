@@ -99,14 +99,14 @@ main {
   width: 90%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-start;
 }
 
 .description-about p {
   text-align: justify;
   line-height: 1.7rem;
-  max-width: 35%;
+  max-width: 25%;
   min-width: 280px;
   margin: 15px;
 }
@@ -132,12 +132,12 @@ margin: 10px 0;
 .review-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: baseline;
 }
 
 .review {
-  margin: 10px;
+  margin: 10px 20px;
   max-width: 450px;
 }
 
@@ -164,10 +164,8 @@ margin: 10px 0;
 .featured-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-start;
-
-
 }
 
 .featured {
@@ -198,12 +196,12 @@ margin: 10px 0;
 .staff-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: stretch;
 }
 
 .staff-member {
-  max-width: 30%;
+  max-width: 15%;
   min-width: 280px;
   text-align: center;
   margin: 10px;
@@ -240,12 +238,16 @@ margin: 10px 0;
   font-size: 2rem;
 }
 
+.content-contact a {
+  color: black;
+}
+
 .content-contact a:hover {
   color: red;
 }
 
 .content-contact a:active {
-  color: blue;
+  color: black;
 }
 
 .content-contact p.adress {
